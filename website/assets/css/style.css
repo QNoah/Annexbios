@@ -1,0 +1,150 @@
+*{
+    /* width: auto; */
+    font-family: 'Lato', sans-serif;
+    max-width: 1920px;
+    width: 100%;
+    /* color: blue; verwijder */
+}
+body{
+    margin: 0;
+    max-width: 1920px;
+    /* width: 100%; */
+}
+main{
+    /* padding-left: 8.90625%; */
+}
+header{
+    max-width: 1920px;
+    width: 100%;
+    height: 161px;
+    background: white;
+    display: flex;
+}
+#logo-header{
+    padding-left: 8.90625%;
+    padding-top: 35px;
+    height: auto;
+    width: 24.11458333333333%;
+    max-width: 100%;
+    display: flex;
+}
+.blauw-onderscheid{
+    padding-left: 8.90625%;
+    width: 91.09375%;
+    height: 91px;
+    margin-bottom: 35px;
+    background: #399CFF;
+    display: flex;
+    flex-direction: row;
+}
+#koop-je-tickets{
+    color: white;
+    font-size: 25px;
+    width: 20%;
+    height: 30px;
+}
+#film-keuze-nav{
+    padding-left: 0.78125%;
+    margin-top: 20px;
+    width: 13.64583333333333%;
+    height: 46px;
+    border-style: unset;
+    color: white;
+    background: #76BBD9;
+    margin-right: 1.822916666666667%;
+}
+#bestel-tickets-nav{
+    width: 8.92917%;
+    height: 37px;
+    color:#399CFF;
+}
+.titel-kop{
+    margin-left: 8.90625%;
+    background: white;
+    width: 1276.99px;
+    margin-bottom: 30px;
+}
+.titel-kop-titel{
+    padding-left: 1%;
+    padding-top: 1%;
+    font-size: 70px;
+    color: #399CFF;
+    margin: 0;
+}
+.standaard-margin{
+    margin-left: 8.90625%;
+    background: white;
+    width: 1276.99px;
+    height: 2494.87%;
+}
+#text-film{
+    padding-left: 3.5%;
+    background: white;
+    margin-top: 1px;
+    margin-right: 10px;
+}
+#film-quick-order{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8.90625%;
+    width: 405px
+}
+.stappen{
+    font-size: 30px;
+    color: #399CFF;
+}
+#tijdstip-quick-order{
+    margin-left: 10px;
+}
+
+.controlle-image-film{
+    width: 216px;
+    height: 326px;
+}
+.standaard-margin-info{
+    padding-left: 47px;
+    padding-top: 35px;
+    color: grey;
+}
+.soort-tickets{
+    display: flex;
+    width: auto;
+}
+.tickets-text-juiste-padding{
+    margin-left: 800px;
+    width: auto;
+    padding-right: 80px;
+}
+hr{
+    margin: 0;
+    width: 95%
+}
+.aantal-tickets-box{
+    width: 85px;
+}
+#voucher{
+    display: flex;
+    margin-top: 30px;
+}
+#voucher-box{
+    height: 35px;
+    margin-left: 25px;
+    width: 722px;
+    margin-right: 12px;
+}
+#toevoegen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #399CFF;
+    color: white;
+    height: 34px;
+    /* width: 240px; */
+}
+@media only screen and (max-width: 900px) {
+    #logo-header{
+        height: 120px;
+        width: 80%;
+        max-width: 100%;
+    }
+}
