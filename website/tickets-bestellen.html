@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
-    <title>Leidscherijn</title>
+    <title>Leidsche Rijn</title>
 </head>
 <body style="background: black">
-    <main>
+    
         <div class="eerste-blok-background">
             <header>
-                <img id="logo-header" src="./assets/imgs/logo-header.png">
+                <img id="logo-header" src="./assets/imgs/logo-header1.png">
             </header>
         </div>
         <div class="blauw-onderscheid">
@@ -29,6 +29,7 @@
                 <input id="bestel-tickets-nav" type="submit" value="BESTEL TICKETS">
             </form>
         </div>
+        <main>
         <div class="titel-kop">
             <p class="titel-kop-titel">TICKETS BESTELLEN</p>
         </div>
@@ -58,8 +59,8 @@
                 </div>
                 <hr>
                 <div class="soort-tickets">
-                    <p>Normaal</p>
-                    <p class="tickets-text-juiste-padding">€9,00</p>
+                    <p class="p-fit-content">Normaal</p>
+                    <p class="tickets-text-juiste-padding tickets-text-juiste-padding-correction">€9,00</p>
                     <select name="aantal-tickets" class="aantal-tickets-box">
                         <option value="">0</option>
                         <option value="">1</option>
@@ -75,8 +76,8 @@
                     </select>
                 </div>
              <div class="soort-tickets">
-                    <p>Kind t/m 11 jaar</p>
-                    <p class="tickets-text-juiste-padding">€5,00</p>
+                    <p class="p-fit-content">Kind t/m 11 jaar</p>
+                    <p class="tickets-text-juiste-padding tickets-text-juiste-padding-correction">€5,00</p>
                     <select name="aantal-tickets" class="aantal-tickets-box">
                         <option value="">0</option>
                         <option value="">1</option>
@@ -92,8 +93,8 @@
                     </select>
                 </div>
                 <div class="soort-tickets">
-                    <p>65+</p>
-                    <p class="tickets-text-juiste-padding">€7,00</p>
+                    <p class="p-fit-content">65+</p>
+                    <p class="tickets-text-juiste-padding tickets-text-juiste-padding-correction">€7,00</p>
                     <select name="aantal-tickets" class="aantal-tickets-box">
                         <option value="">0</option>
                         <option value="">1</option>
@@ -123,37 +124,44 @@
                 </div>
                 <div class="film-info">
                     <img class="controlle-image-film" src="./assets/imgs/Jurassic-World_-Fallen-Kingdom_ps_1 (1).png">
-                    <h2>JURASSIC WORLD: FALLEN KINGDOM</h2>
-                    <img src="">
-                    <img src="">
-                    <img src="">
-                    <p>Bioscoop:</p>
-                    <p>Wanneer:</p>
-                    <p>Stoelen:</p>
-                    <p>Tickets:</p>
+                    <div id="film-info-context">
+                        <h3>JURASSIC WORLD: FALLEN KINGDOM</h3>
+                        <img class="kijk-wijzer" src="./assets/imgs/kijkwijzer-12.png">
+                        <img class="kijk-wijzer" src="./assets/imgs/kijkwijzer-12.png">
+                        <img class="kijk-wijzer" src="./assets/imgs/kijkwijzer-12.png">
+                        <p class="remove-margin-both-p">Bioscoop: Hellevoetsluit (Zaal 3)</p>
+                        <p class="remove-margin-both-p">Wanneer: 11 juni 14:15</p>
+                        <p class="remove-margin-both-p">Stoelen: Rij 2, stoel 7</p>
+                        <p class="remove-margin-both-p">Tickets:  1x normaal</p>
+                        <p>Totaal 1 ticket: €9,00</p>
+                    </div>
                 </div>
                 <div class="stappen">
-                    <h1>STAP 4: VUL JE GEGEVENS IN</h1>
+                    <h1 style="margin-top: 5%;">STAP 4: VUL JE GEGEVENS IN</h1>
                 </div>
-                <form action="">
-                    <input type="text" placeholder="Voornaam">
-                    <input type="text" placeholder="Achternaam*">
-                    <input type="email" name="email" placeholder="E-mailadres*">
-                    <input type="email" name="email" placeholder="E-mailadres*">
-                    <h2 style="color: #399CFF;">STAP 5: KIES JE BETAALWIJZE</h2>
-                    <input type="checkbox" name="jsjjs">
-                    <img src="./assets/imgs/Path 177.png">
-                    <input type="checkbox" name="jsjjs">
-                    <img src="./assets/imgs/Image 2.png">
-                    <input type="checkbox" name="jsjjs">
-                    <img src="./assets/imgs/Image 1.png">
-                    <div id="voorwaarden">
-                        <input type="checkbox" name="voorwaarden"> Ja, ik ga akkoord met de algemene voorwaarden.
-                    </div>
-                    <input type="submit" value="AFREKENEN">
-                </form>
+                <div id="inputs">
+                    <form action="">
+                        <input class="input-name" type="text" placeholder="Voornaam">
+                        <input class="input-name" type="text" placeholder="Achternaam*">
+                        <input class="input-email" type="email" name="email" placeholder="E-mailadres*">
+                        <input class="input-email" type="email" name="email" placeholder="E-mailadres*">
+                </div>
+                        <h2 style="color: #6E4F7D;">STAP 5: KIES JE BETAALWIJZE</h2>
+                        <div id="checkboxes">
+                        <input class="payment-method-checkbox" type="checkbox" name="payment-method">
+                        <img class="payment-method-image" src="./assets/imgs/Path 177.png">
+                        <input class="payment-method-checkbox" type="checkbox" name="payment-method">
+                        <img class="payment-method-image" src="./assets/imgs/Image 2.png">
+                        <input class="payment-method-checkbox" type="checkbox" name="payment-method">
+                        <img class="payment-method-image" src="./assets/imgs/Image 1.png">
+                        </div>
+                        <div id="voorwaarden">
+                            <input type="checkbox" name="voorwaarden"> Ja, ik ga akkoord met de algemene voorwaarden.
+                        </div>
             </div>
         </div>
+        <input id="submit" type="submit" value="AFREKENEN">
+                    </form>
     </main>
 </body>
 </html>
