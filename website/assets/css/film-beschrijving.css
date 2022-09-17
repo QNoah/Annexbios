@@ -1,0 +1,136 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    margin: 0;
+    max-width: 390px;
+    width: 100%;
+}
+main{
+    padding-top: 5%;
+    background: black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+header{
+    width: 100%;
+    display: block;
+}
+#logo-header{
+    height: 80px;
+    width: auto;
+    padding-left: 2%;
+}
+.blauw-onderscheid{
+    padding-left: 8.90625%;
+    width: 91.09375%;
+    height: 91px;
+    background: #399CFF;
+    display: flex;
+    flex-direction: row;
+}
+#koop-je-tickets{
+    width: 50%;
+    font-size: 15px;
+    margin-top: 25px;
+    color: white;
+}
+#film-keuze-nav{
+    padding-left: 0.78125%;
+    margin-top: 20px;
+    height: 46px;
+    border-style: unset;
+    color: white;
+    background: #76BBD9;
+    margin-right: 1.822916666666667%;
+}
+#quick-nav-mobile{
+    width: 100%;
+}
+#bestel-tickets-nav{
+    height: 37px;
+    color:#399CFF;
+}
+#film-quick-order{
+    display: flex;
+    flex-direction: row;
+    width: 21.09375%;
+}
+h1{
+    color: #399CFF;
+}
+#film-titel{
+    background: white;
+    font-size: small;
+    height: 40px;
+    vertical-align: middle;
+    margin-bottom: 5%;
+}
+.movie-picture{
+    width: auto;
+    height: 200px;
+    padding-right: 5%;
+}
+#film-desc{
+    display: flex;
+}
+.box-desc{
+    background: white;
+    width: 100%;
+    margin-left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+.box-desc h2{
+    margin: 0;
+    font-size: 6px;
+}
+#film-desc img.star-rating{
+    width: auto;
+    height: 15px;
+    padding: 0;
+}
+#kijk-wijzer img{
+    width: auto;
+    height: 15px;
+    padding: 0;
+}
+h2{
+    font-size: smaller;
+    color: gray;
+}
+.box-desc p {
+    font-size: 3px;
+}
+.extra-info-genres ul{
+    font-size: 4px;
+    padding: 0;
+    list-style: none;
+}
+.actors{
+    height: 30px;
+}
+.actors img{
+    width: auto;
+    height: 30px;
+}
+.actors-names p{
+    margin: 0;
+    width: 20px;
+    /* padding-right: 5px; */
+    padding-right: 3%;
+}
+.actors-names{
+    display: flex;
+}
+.koop-je-tickets{
+    margin-top: 2%;
+    background: #399CFF;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+.koop-je-tickets b{
+    vertical-align: middle;
+}
