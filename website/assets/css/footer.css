@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-size: 100%;
+}
+footer{
+    background: grey;
+    width: 100%;
+    height: 140px;
+    color: white;
+    display: flex;
+    padding-top: 5%;
+}
+.blok1{
+    margin-left: 5%;
+}
+.logo-footer{
+    width: auto;
+    height: 30px;
+}
+.blok1 p{
+    width: 100px;
+    font-size: 0.3125em;
+}
+#lees-meer-footer{
+    width: auto;
+    height: 20px;
+    font-size: 0.625em;
+    color: grey;
+}
+#blok2{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+footer h2{
+   color: white;
+}
+ul{
+    padding: 0
+}
+ul li{
+    font-size: 0.625em;
+    list-style: none;
+}
+#blok3 img{
+    width: auto;
+    height: 20px;
+}
+.voorwaarden-footer{
+    background: black;
+}
+.voorwaarden-footer p{
+    margin: 0;
+    color: white;
+    font-size: 10px;
+    margin-left: 10%;
+}
+@media (min-width: 1920px) and (max-width: 2560px)  {
+    footer{
+        height: 478px;
+    }
+    footer h2{
+        font-size: 30px;
+        padding-top: 20%;
+    }
+    .logo-footer{
+        width: 301.19px;
+        height: 107.2px;
+    }
+    .blok1 p{
+        width: 403px;
+        font-size: 20px;
+    }
+    #blok2 ul li{
+        font-size: 20px;   
+    }
+    #blok3 img{
+        height: 43px;
+        width: 43px;
+    }
+    .voorwaarden-footer p{
+        font-size: 20px;
+    }
+}

@@ -2,6 +2,7 @@
     font-family: 'Lato', sans-serif;
 }
 body{
+    font-size: 100%;
     margin: 0;
     max-width: 390px;
     width: 100%;
@@ -17,7 +18,7 @@ header{
     display: block;
 }
 #logo-header{
-    height: 80px;
+    height: 40px;
     width: auto;
     padding-left: 2%;
 }
@@ -29,9 +30,9 @@ header{
     display: flex;
     flex-direction: row;
 }
-#koop-je-tickets{
+.blauw-onderscheid .koop-je-tickets{
     width: 50%;
-    font-size: 15px;
+    font-size: 0.9375em;
     margin-top: 25px;
     color: white;
 }
@@ -57,9 +58,10 @@ header{
     width: 21.09375%;
 }
 h1{
+    padding-top: 1%;
     color: #399CFF;
 }
-#film-titel{
+.film-titel{
     background: white;
     font-size: small;
     height: 40px;
@@ -67,8 +69,7 @@ h1{
     margin-bottom: 5%;
 }
 .movie-picture{
-    width: auto;
-    height: 200px;
+    width: 132.500px;
     padding-right: 5%;
 }
 #film-desc{
@@ -84,7 +85,7 @@ h1{
 }
 .box-desc h2{
     margin: 0;
-    font-size: 6px;
+    font-size: 0.375em;
 }
 #film-desc img.star-rating{
     width: auto;
@@ -101,15 +102,13 @@ h2{
     color: gray;
 }
 .box-desc p {
-    font-size: 3px;
+    font-size: 0.1875em;
 }
 .extra-info-genres ul{
-    font-size: 4px;
+    font-size: 0.25em;
     padding: 0;
     list-style: none;
-}
-.actors{
-    height: 30px;
+    color: grey;
 }
 .actors img{
     width: auto;
@@ -124,7 +123,7 @@ h2{
 .actors-names{
     display: flex;
 }
-.koop-je-tickets{
+.koop-je-tickets-button{
     margin-top: 2%;
     background: #399CFF;
     color: white;
@@ -133,4 +132,94 @@ h2{
 }
 .koop-je-tickets b{
     vertical-align: middle;
+}
+iframe{
+    margin-top: 2%;
+    width: 100%;
+    margin-bottom: 10%;
+    border: #399CFF 4px solid;
+}
+@media (min-width: 1920px) and (max-width: 2560px)  {
+    body{
+        width: 100%;
+        max-width: 1920px;
+    }
+    header{
+        width: 100%;
+    }
+    #logo-header{
+        height: 104px;
+        margin-top: 29px;
+        padding-left: 8.90625%;;
+    }
+    .koop-je-tickets{
+        font-size: 30px;
+        width: 300px;
+        margin: 0;
+        margin-top: 1.2%;
+    }
+    #quick-nav-mobile{
+        margin-left: 5%;
+    }
+    main{
+        padding-top: 104px;
+    }
+    .film-titel{
+        height: 137px;
+        margin-bottom: 77px;
+    }
+    h1{
+        font-size: 70px;
+        margin: 0;
+    }
+    .movie-picture{
+        height: 1014px;
+        width: 663px;
+        padding-right: 24px;
+    }
+    .box-desc{
+        margin-left: 0;
+    }
+    #film-desc img.star-rating{
+        width: 52.37px;
+        height: 50.23px;
+    }
+    #kijk-wijzer img{
+      width: 45px;
+      height: 45px;  
+    }
+    .box-desc{
+        width: 50%;
+    }
+    .box-desc h2{
+        font-size: 30px;
+    }
+    .box-desc p{
+        width: 780px;
+        height: 370px;
+        font-size: 17px;
+    }
+    .extra-info-genres li{
+        font-size: 20px;
+    }
+    .actors img{
+        height: 165px;
+        width: 110px;
+        margin-right: 20px;
+    }
+    .actors-names{
+        font-size: 15px;
+    }
+    .actors-names p{
+        width: 109px;
+        height: 41px;
+        padding-right: 25px;
+    }
+    .koop-je-tickets-button{
+        height: 122px;
+        font-size: 45px;
+    }
+    iframe{
+        height: 882px;
+    }
 }
