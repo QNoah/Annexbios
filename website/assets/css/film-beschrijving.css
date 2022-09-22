@@ -4,7 +4,7 @@
 body{
     font-size: 100%;
     margin: 0;
-    max-width: 390px;
+    /* max-width: 390px; */
     width: 100%;
 }
 main{
@@ -153,8 +153,8 @@ iframe{
         padding-left: 8.90625%;;
     }
     .koop-je-tickets{
-        font-size: 30px;
-        width: 300px;
+        font-size: 1.875em;
+        width: 15.625%;
         margin: 0;
         margin-top: 1.2%;
     }
@@ -174,8 +174,8 @@ iframe{
     }
     .movie-picture{
         height: 1014px;
-        width: 663px;
-        padding-right: 24px;
+        width: 34.53125%;
+        padding-right: 1.25%;
     }
     .box-desc{
         margin-left: 0;
